@@ -1,2 +1,18 @@
-# hypothesis_testing-
-Technical deep dive into hypothesis testing using A/B testing methodologies. The analysis explores whether a website theme (Light vs. Dark) impacts user behavior, specifically purchase conversion rates.
+# 📊 A/B Testing & Hypothesis Testing: Light vs. Dark Theme
+
+## 🔍 Overview
+This repository explores **A/B testing** with hypothesis testing to determine whether **website theme (Light vs. Dark)** affects user purchases.
+
+## 📈 Statistical Methods
+- ✅ **Chi-Square Test** → For categorical relationships (Theme vs. Purchases)
+- 🚧 **T-Test (Planned)** → For comparing session durations
+- ❌ **Z-Test Not Needed** → Explained in the notebook
+
+## 📂 Files
+📁 `Hypothesis Test - Light x Dark.ipynb` → Jupyter Notebook with full A/B testing workflow  
+📁 `website_ab_test.csv` → Dataset for analysis  
+
+## ⚙️ Setup
+```bash
+pip install -r requirements.txt
+jupyter notebook
